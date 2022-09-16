@@ -2,7 +2,7 @@ openapi: '3.0.0'
 info:
   version: 'v1'
   title: 'TestDoc'
-  description: Buy or rent spacecrafts Postman
+  description: Buy or rent spacecrafts Postman/github
 
 paths:
   /spacecrafts/{spacecraftId}:
