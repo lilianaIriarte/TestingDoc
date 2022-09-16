@@ -1,0 +1,2169 @@
+{
+	"info": {
+		"_postman_id": "d7e61a09-91d5-466e-9e3c-08588f819770",
+		"name": "Mojix ytem API",
+		"description": "Contact Support:\n Name: Mojix, Inc.\n Email: support@mojix.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "stock-management/manage",
+			"item": [
+				{
+					"name": "pick",
+					"item": [
+						{
+							"name": "{id}",
+							"item": [
+								{
+									"name": "/stock-management/manage/pick/:id",
+									"id": "a1f3dfd5-ff03-43dd-a21c-ba9f5da73ed2",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/stock-management/manage/pick/:id?expirationTime=do adipisicing fugiat nulla veniam&format=do adipisicing fugiat nulla veniam&status=do adipisicing fugiat nulla veniam&statusUpdatedByAsn=false",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"stock-management",
+												"manage",
+												"pick",
+												":id"
+											],
+											"query": [
+												{
+													"key": "expirationTime",
+													"value": "do adipisicing fugiat nulla veniam"
+												},
+												{
+													"key": "format",
+													"value": "do adipisicing fugiat nulla veniam"
+												},
+												{
+													"key": "status",
+													"value": "do adipisicing fugiat nulla veniam"
+												},
+												{
+													"key": "statusUpdatedByAsn",
+													"value": "false"
+												}
+											],
+											"variable": [
+												{
+													"id": "d9c4f741-9d55-4b28-9e84-32a4f136c568",
+													"key": "id",
+													"value": "78126707",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "3667e987-e357-4430-ac38-f5e6f9f971cc",
+											"name": "OK",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: bearer",
+														"key": "Authorization",
+														"value": "Bearer <token>"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/stock-management/manage/pick/:id?expirationTime=do adipisicing fugiat nulla veniam&format=do adipisicing fugiat nulla veniam&status=do adipisicing fugiat nulla veniam&statusUpdatedByAsn=false",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"stock-management",
+														"manage",
+														"pick",
+														":id"
+													],
+													"query": [
+														{
+															"key": "expirationTime",
+															"value": "do adipisicing fugiat nulla veniam"
+														},
+														{
+															"key": "format",
+															"value": "do adipisicing fugiat nulla veniam"
+														},
+														{
+															"key": "status",
+															"value": "do adipisicing fugiat nulla veniam"
+														},
+														{
+															"key": "statusUpdatedByAsn",
+															"value": "false"
+														}
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "78126707",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/stock-management/manage/pick/:id",
+									"id": "3b06d45f-bec0-44df-ae57-8d0034842759",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/stock-management/manage/pick/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"stock-management",
+												"manage",
+												"pick",
+												":id"
+											],
+											"variable": [
+												{
+													"id": "4e82b630-9e40-438a-97ce-1f003a56d2fe",
+													"key": "id",
+													"value": "78126707",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "7e866026-a02b-46fd-8185-55bab97b1da5",
+											"name": "OK",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: bearer",
+														"key": "Authorization",
+														"value": "Bearer <token>"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/stock-management/manage/pick/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"stock-management",
+														"manage",
+														"pick",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "78126707",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": ""
+										}
+									]
+								}
+							],
+							"id": "9ff61ea3-e7f9-42bf-9022-2451817d49aa"
+						},
+						{
+							"name": "/stock-management/manage/pick",
+							"id": "c245ce9c-67c4-4e99-b251-3d81982bc472",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "tenant",
+										"value": "do adipisicing fugiat nulla veniam"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/stock-management/manage/pick?format=do adipisicing fugiat nulla veniam&from=0&size=46888695",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"stock-management",
+										"manage",
+										"pick"
+									],
+									"query": [
+										{
+											"key": "format",
+											"value": "do adipisicing fugiat nulla veniam"
+										},
+										{
+											"key": "from",
+											"value": "0"
+										},
+										{
+											"key": "size",
+											"value": "46888695"
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"id": "83c4fd59-c6b9-4c52-baf3-31cb41e0ae98",
+									"name": "OK",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: bearer",
+												"key": "Authorization",
+												"value": "Bearer <token>"
+											},
+											{
+												"key": "tenant",
+												"value": "do adipisicing fugiat nulla veniam"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/stock-management/manage/pick?format=do adipisicing fugiat nulla veniam&from=0&size=46888695",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"stock-management",
+												"manage",
+												"pick"
+											],
+											"query": [
+												{
+													"key": "format",
+													"value": "do adipisicing fugiat nulla veniam"
+												},
+												{
+													"key": "from",
+													"value": "0"
+												},
+												{
+													"key": "size",
+													"value": "46888695"
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": ""
+								}
+							]
+						},
+						{
+							"name": "/stock-management/manage/pick/transactions/:transactionId",
+							"id": "dd913e99-f4c4-468e-be87-b7331f9c4386",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{baseUrl}}/stock-management/manage/pick/transactions/:transactionId",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"stock-management",
+										"manage",
+										"pick",
+										"transactions",
+										":transactionId"
+									],
+									"variable": [
+										{
+											"id": "5f2bdcb6-289b-436a-a867-6c8d12a6c784",
+											"key": "transactionId",
+											"value": "do adipisicing fugiat nulla veniam",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"response": [
+								{
+									"id": "29dc3b49-b0ad-44f4-b647-3a0b1f47e667",
+									"name": "OK",
+									"originalRequest": {
+										"method": "GET",
+										"header": [
+											{
+												"description": "Added as a part of security scheme: bearer",
+												"key": "Authorization",
+												"value": "Bearer <token>"
+											}
+										],
+										"url": {
+											"raw": "{{baseUrl}}/stock-management/manage/pick/transactions/:transactionId",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"stock-management",
+												"manage",
+												"pick",
+												"transactions",
+												":transactionId"
+											],
+											"variable": [
+												{
+													"key": "transactionId",
+													"value": "do adipisicing fugiat nulla veniam",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "text",
+									"header": [
+										{
+											"key": "Content-Type",
+											"value": "text/plain"
+										}
+									],
+									"cookie": [],
+									"responseTime": null,
+									"body": ""
+								}
+							]
+						}
+					],
+					"id": "c471ba14-6173-4ed0-8711-b4e594c98eae"
+				},
+				{
+					"name": "/stock-management/manage/application/picking",
+					"id": "5200ff13-ea6e-4b21-9820-332ac84a794f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/stock-management/manage/application/picking",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"stock-management",
+								"manage",
+								"application",
+								"picking"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "abd64b52-06be-437c-ac74-973d48cfd599",
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "Added as a part of security scheme: bearer",
+										"key": "Authorization",
+										"value": "Bearer <token>"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/stock-management/manage/application/picking",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"stock-management",
+										"manage",
+										"application",
+										"picking"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "/stock-management/manage/:subprocess",
+					"id": "9b02bfc4-0b6b-44da-bac5-2dbfbcd9c96c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/stock-management/manage/:subprocess?format=quantity",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"stock-management",
+								"manage",
+								":subprocess"
+							],
+							"query": [
+								{
+									"key": "format",
+									"value": "quantity"
+								}
+							],
+							"variable": [
+								{
+									"id": "d3fed515-d4a9-4a93-a5f9-189abbfa3330",
+									"key": "subprocess",
+									"value": "do adipisicing fugiat nulla veniam",
+									"description": "(Required) "
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "d45dafe4-c6bf-44ea-8591-df1b8e721f26",
+							"name": "OK",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"description": "Added as a part of security scheme: bearer",
+										"key": "Authorization",
+										"value": "Bearer <token>"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{baseUrl}}/stock-management/manage/:subprocess?format=quantity",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"stock-management",
+										"manage",
+										":subprocess"
+									],
+									"query": [
+										{
+											"key": "format",
+											"value": "quantity"
+										}
+									],
+									"variable": [
+										{
+											"key": "subprocess",
+											"value": "do adipisicing fugiat nulla veniam",
+											"description": "(Required) "
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				}
+			],
+			"id": "650a0e5c-bf82-41b5-8884-1e9f3d518c27"
+		},
+		{
+			"name": "supply-chain-api/rest",
+			"item": [
+				{
+					"name": "supply chain",
+					"item": [
+						{
+							"name": "process",
+							"item": [
+								{
+									"name": "/supply-chain-api/rest/supply_chain/process/crossreceive/:transaction_id",
+									"id": "fb922369-6557-40fe-9fa4-fd8ad3fb5ec9",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "\"do adipisicing fugiat nulla veniam\"",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/process/crossreceive/:transaction_id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"supply-chain-api",
+												"rest",
+												"supply_chain",
+												"process",
+												"crossreceive",
+												":transaction_id"
+											],
+											"variable": [
+												{
+													"id": "198e8a87-6614-4174-83d4-e0e7c3d98868",
+													"key": "transaction_id",
+													"value": "do adipisicing fugiat nulla veniam",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "5fbb2f34-609a-4899-8b7c-beac86fe41ba",
+											"name": "OK",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: bearer",
+														"key": "Authorization",
+														"value": "Bearer <token>"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "\"do adipisicing fugiat nulla veniam\"",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/process/crossreceive/:transaction_id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"supply-chain-api",
+														"rest",
+														"supply_chain",
+														"process",
+														"crossreceive",
+														":transaction_id"
+													],
+													"variable": [
+														{
+															"key": "transaction_id",
+															"value": "do adipisicing fugiat nulla veniam",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/supply-chain-api/rest/supply_chain/process/crossship/:transaction_id",
+									"id": "24a3a4d4-15c5-488b-9c82-3db90cab78ee",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "\"do adipisicing fugiat nulla veniam\"",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/process/crossship/:transaction_id?destination=do adipisicing fugiat nulla veniam",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"supply-chain-api",
+												"rest",
+												"supply_chain",
+												"process",
+												"crossship",
+												":transaction_id"
+											],
+											"query": [
+												{
+													"key": "destination",
+													"value": "do adipisicing fugiat nulla veniam"
+												}
+											],
+											"variable": [
+												{
+													"id": "582c22b2-9af2-45bd-9639-08ca83361beb",
+													"key": "transaction_id",
+													"value": "do adipisicing fugiat nulla veniam",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "78f0cb07-f224-428a-a494-46e86bf59446",
+											"name": "OK",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: bearer",
+														"key": "Authorization",
+														"value": "Bearer <token>"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "\"do adipisicing fugiat nulla veniam\"",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/process/crossship/:transaction_id?destination=do adipisicing fugiat nulla veniam",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"supply-chain-api",
+														"rest",
+														"supply_chain",
+														"process",
+														"crossship",
+														":transaction_id"
+													],
+													"query": [
+														{
+															"key": "destination",
+															"value": "do adipisicing fugiat nulla veniam"
+														}
+													],
+													"variable": [
+														{
+															"key": "transaction_id",
+															"value": "do adipisicing fugiat nulla veniam",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/supply-chain-api/rest/supply_chain/process/ship/:transaction_id",
+									"id": "2d58b2a8-0325-4f20-a946-c29bbab3719c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "\"do adipisicing fugiat nulla veniam\"",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/process/ship/:transaction_id?destination=do adipisicing fugiat nulla veniam",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"supply-chain-api",
+												"rest",
+												"supply_chain",
+												"process",
+												"ship",
+												":transaction_id"
+											],
+											"query": [
+												{
+													"key": "destination",
+													"value": "do adipisicing fugiat nulla veniam"
+												}
+											],
+											"variable": [
+												{
+													"id": "49381cd3-0394-40e3-aa11-24c13db77a35",
+													"key": "transaction_id",
+													"value": "do adipisicing fugiat nulla veniam",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "5200ba4a-cc25-4fab-88c9-4d1b9b795985",
+											"name": "OK",
+											"originalRequest": {
+												"method": "POST",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: bearer",
+														"key": "Authorization",
+														"value": "Bearer <token>"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "\"do adipisicing fugiat nulla veniam\"",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/process/ship/:transaction_id?destination=do adipisicing fugiat nulla veniam",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"supply-chain-api",
+														"rest",
+														"supply_chain",
+														"process",
+														"ship",
+														":transaction_id"
+													],
+													"query": [
+														{
+															"key": "destination",
+															"value": "do adipisicing fugiat nulla veniam"
+														}
+													],
+													"variable": [
+														{
+															"key": "transaction_id",
+															"value": "do adipisicing fugiat nulla veniam",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": ""
+										}
+									]
+								}
+							],
+							"id": "7a02869a-d52f-432f-83a7-e66d9ebbbb08"
+						},
+						{
+							"name": "reference lists",
+							"item": [
+								{
+									"name": "searches",
+									"item": [
+										{
+											"name": "results",
+											"item": [
+												{
+													"name": "/supply-chain-api/rest/supply_chain/reference_lists/searches/results",
+													"id": "9871b065-da40-498c-a88c-1049fedfe8b9",
+													"protocolProfileBehavior": {
+														"disableBodyPruning": true
+													},
+													"request": {
+														"method": "POST",
+														"header": [
+															{
+																"key": "Content-Type",
+																"value": "application/json"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "{}",
+															"options": {
+																"raw": {
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/searches/results?as_containers=false&format=do adipisicing fugiat nulla veniam&from=0&result_format=tag&retrieveContents=true&size=46888695",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"supply-chain-api",
+																"rest",
+																"supply_chain",
+																"reference_lists",
+																"searches",
+																"results"
+															],
+															"query": [
+																{
+																	"key": "as_containers",
+																	"value": "false"
+																},
+																{
+																	"key": "format",
+																	"value": "do adipisicing fugiat nulla veniam"
+																},
+																{
+																	"key": "from",
+																	"value": "0"
+																},
+																{
+																	"key": "result_format",
+																	"value": "tag"
+																},
+																{
+																	"key": "retrieveContents",
+																	"value": "true"
+																},
+																{
+																	"key": "size",
+																	"value": "46888695"
+																}
+															]
+														}
+													},
+													"response": [
+														{
+															"id": "1443a45c-e494-4bcf-8262-67173b55525a",
+															"name": "OK",
+															"originalRequest": {
+																"method": "POST",
+																"header": [
+																	{
+																		"description": "Added as a part of security scheme: bearer",
+																		"key": "Authorization",
+																		"value": "Bearer <token>"
+																	}
+																],
+																"body": {
+																	"mode": "raw",
+																	"raw": "{}",
+																	"options": {
+																		"raw": {
+																			"language": "json"
+																		}
+																	}
+																},
+																"url": {
+																	"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/searches/results?as_containers=false&format=do adipisicing fugiat nulla veniam&from=0&result_format=tag&retrieveContents=true&size=46888695",
+																	"host": [
+																		"{{baseUrl}}"
+																	],
+																	"path": [
+																		"supply-chain-api",
+																		"rest",
+																		"supply_chain",
+																		"reference_lists",
+																		"searches",
+																		"results"
+																	],
+																	"query": [
+																		{
+																			"key": "as_containers",
+																			"value": "false"
+																		},
+																		{
+																			"key": "format",
+																			"value": "do adipisicing fugiat nulla veniam"
+																		},
+																		{
+																			"key": "from",
+																			"value": "0"
+																		},
+																		{
+																			"key": "result_format",
+																			"value": "tag"
+																		},
+																		{
+																			"key": "retrieveContents",
+																			"value": "true"
+																		},
+																		{
+																			"key": "size",
+																			"value": "46888695"
+																		}
+																	]
+																}
+															},
+															"status": "OK",
+															"code": 200,
+															"_postman_previewlanguage": "text",
+															"header": [
+																{
+																	"key": "Content-Type",
+																	"value": "text/plain"
+																}
+															],
+															"cookie": [],
+															"responseTime": null,
+															"body": ""
+														}
+													]
+												},
+												{
+													"name": "/supply-chain-api/rest/supply_chain/reference_lists/searches/results/extended",
+													"id": "fbd5d203-00ba-4c17-a5a8-e36a75169ffe",
+													"protocolProfileBehavior": {
+														"disableBodyPruning": true
+													},
+													"request": {
+														"method": "POST",
+														"header": [
+															{
+																"key": "Content-Type",
+																"value": "application/json"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "{}",
+															"options": {
+																"raw": {
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/searches/results/extended?format=do adipisicing fugiat nulla veniam&from=0&size=46888695",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"supply-chain-api",
+																"rest",
+																"supply_chain",
+																"reference_lists",
+																"searches",
+																"results",
+																"extended"
+															],
+															"query": [
+																{
+																	"key": "format",
+																	"value": "do adipisicing fugiat nulla veniam"
+																},
+																{
+																	"key": "from",
+																	"value": "0"
+																},
+																{
+																	"key": "size",
+																	"value": "46888695"
+																}
+															]
+														}
+													},
+													"response": [
+														{
+															"id": "a2ebafc4-8091-4f68-9cb6-a1d5ec953ce4",
+															"name": "OK",
+															"originalRequest": {
+																"method": "POST",
+																"header": [
+																	{
+																		"description": "Added as a part of security scheme: bearer",
+																		"key": "Authorization",
+																		"value": "Bearer <token>"
+																	}
+																],
+																"body": {
+																	"mode": "raw",
+																	"raw": "{}",
+																	"options": {
+																		"raw": {
+																			"language": "json"
+																		}
+																	}
+																},
+																"url": {
+																	"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/searches/results/extended?format=do adipisicing fugiat nulla veniam&from=0&size=46888695",
+																	"host": [
+																		"{{baseUrl}}"
+																	],
+																	"path": [
+																		"supply-chain-api",
+																		"rest",
+																		"supply_chain",
+																		"reference_lists",
+																		"searches",
+																		"results",
+																		"extended"
+																	],
+																	"query": [
+																		{
+																			"key": "format",
+																			"value": "do adipisicing fugiat nulla veniam"
+																		},
+																		{
+																			"key": "from",
+																			"value": "0"
+																		},
+																		{
+																			"key": "size",
+																			"value": "46888695"
+																		}
+																	]
+																}
+															},
+															"status": "OK",
+															"code": 200,
+															"_postman_previewlanguage": "text",
+															"header": [
+																{
+																	"key": "Content-Type",
+																	"value": "text/plain"
+																}
+															],
+															"cookie": [],
+															"responseTime": null,
+															"body": ""
+														}
+													]
+												}
+											],
+											"id": "c7710f58-c39a-489c-93b8-3097b7a8c81b"
+										},
+										{
+											"name": "/supply-chain-api/rest/supply_chain/reference_lists/searches",
+											"id": "356fcc61-fe6e-4493-9e4c-cb41b3141bdd",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/searches?format=do adipisicing fugiat nulla veniam&from=0&size=46888695",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"supply-chain-api",
+														"rest",
+														"supply_chain",
+														"reference_lists",
+														"searches"
+													],
+													"query": [
+														{
+															"key": "format",
+															"value": "do adipisicing fugiat nulla veniam"
+														},
+														{
+															"key": "from",
+															"value": "0"
+														},
+														{
+															"key": "size",
+															"value": "46888695"
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"id": "ad982aa8-d332-4ba0-9755-1b9c8b3ef503",
+													"name": "OK",
+													"originalRequest": {
+														"method": "POST",
+														"header": [
+															{
+																"description": "Added as a part of security scheme: bearer",
+																"key": "Authorization",
+																"value": "Bearer <token>"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "{}",
+															"options": {
+																"raw": {
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/searches?format=do adipisicing fugiat nulla veniam&from=0&size=46888695",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"supply-chain-api",
+																"rest",
+																"supply_chain",
+																"reference_lists",
+																"searches"
+															],
+															"query": [
+																{
+																	"key": "format",
+																	"value": "do adipisicing fugiat nulla veniam"
+																},
+																{
+																	"key": "from",
+																	"value": "0"
+																},
+																{
+																	"key": "size",
+																	"value": "46888695"
+																}
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "text",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "text/plain"
+														}
+													],
+													"cookie": [],
+													"responseTime": null,
+													"body": ""
+												}
+											]
+										}
+									],
+									"id": "b7148938-e47b-49da-8510-34175729acdb"
+								},
+								{
+									"name": "{list id}",
+									"item": [
+										{
+											"name": "/supply-chain-api/rest/supply_chain/reference_lists/:list_id",
+											"id": "79a9e4b5-983a-4f3c-9fb1-1bb3f690ec5c",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/:list_id?expiration_time=do adipisicing fugiat nulla veniam&format=do adipisicing fugiat nulla veniam&status=do adipisicing fugiat nulla veniam&statusUpdatedByAsn=false",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"supply-chain-api",
+														"rest",
+														"supply_chain",
+														"reference_lists",
+														":list_id"
+													],
+													"query": [
+														{
+															"key": "expiration_time",
+															"value": "do adipisicing fugiat nulla veniam"
+														},
+														{
+															"key": "format",
+															"value": "do adipisicing fugiat nulla veniam"
+														},
+														{
+															"key": "status",
+															"value": "do adipisicing fugiat nulla veniam"
+														},
+														{
+															"key": "statusUpdatedByAsn",
+															"value": "false"
+														}
+													],
+													"variable": [
+														{
+															"id": "53805112-1b23-4692-b619-82c38ddbb936",
+															"key": "list_id",
+															"value": "78126707",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"id": "96a19efd-6785-47da-817b-995ae5a83769",
+													"name": "OK",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"description": "Added as a part of security scheme: bearer",
+																"key": "Authorization",
+																"value": "Bearer <token>"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/:list_id?expiration_time=do adipisicing fugiat nulla veniam&format=do adipisicing fugiat nulla veniam&status=do adipisicing fugiat nulla veniam&statusUpdatedByAsn=false",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"supply-chain-api",
+																"rest",
+																"supply_chain",
+																"reference_lists",
+																":list_id"
+															],
+															"query": [
+																{
+																	"key": "expiration_time",
+																	"value": "do adipisicing fugiat nulla veniam"
+																},
+																{
+																	"key": "format",
+																	"value": "do adipisicing fugiat nulla veniam"
+																},
+																{
+																	"key": "status",
+																	"value": "do adipisicing fugiat nulla veniam"
+																},
+																{
+																	"key": "statusUpdatedByAsn",
+																	"value": "false"
+																}
+															],
+															"variable": [
+																{
+																	"key": "list_id",
+																	"value": "78126707",
+																	"description": "(Required) "
+																}
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "text",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "text/plain"
+														}
+													],
+													"cookie": [],
+													"responseTime": null,
+													"body": ""
+												}
+											]
+										},
+										{
+											"name": "/supply-chain-api/rest/supply_chain/reference_lists/:list_id",
+											"id": "f2efd1ab-5ba9-42e0-8ef1-9b33c953246c",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "PUT",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/:list_id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"supply-chain-api",
+														"rest",
+														"supply_chain",
+														"reference_lists",
+														":list_id"
+													],
+													"variable": [
+														{
+															"id": "298a5c15-a4d8-42e2-b678-51c8ce6246cf",
+															"key": "list_id",
+															"value": "78126707",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"id": "5f2c0b62-176b-4451-8ed5-b11f73177a3a",
+													"name": "OK",
+													"originalRequest": {
+														"method": "PUT",
+														"header": [
+															{
+																"description": "Added as a part of security scheme: bearer",
+																"key": "Authorization",
+																"value": "Bearer <token>"
+															}
+														],
+														"body": {
+															"mode": "raw",
+															"raw": "{}",
+															"options": {
+																"raw": {
+																	"language": "json"
+																}
+															}
+														},
+														"url": {
+															"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/:list_id",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"supply-chain-api",
+																"rest",
+																"supply_chain",
+																"reference_lists",
+																":list_id"
+															],
+															"variable": [
+																{
+																	"key": "list_id",
+																	"value": "78126707",
+																	"description": "(Required) "
+																}
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "text",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "text/plain"
+														}
+													],
+													"cookie": [],
+													"responseTime": null,
+													"body": ""
+												}
+											]
+										},
+										{
+											"name": "/supply-chain-api/rest/supply_chain/reference_lists/:list_id/compare",
+											"id": "9a2051aa-257a-4727-b3b1-f1da50cc8452",
+											"protocolProfileBehavior": {
+												"disableBodyPruning": true
+											},
+											"request": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/:list_id/compare?as_quantity=false&as_sku_quantity=false&use_containers=false",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"supply-chain-api",
+														"rest",
+														"supply_chain",
+														"reference_lists",
+														":list_id",
+														"compare"
+													],
+													"query": [
+														{
+															"key": "as_quantity",
+															"value": "false"
+														},
+														{
+															"key": "as_sku_quantity",
+															"value": "false"
+														},
+														{
+															"key": "use_containers",
+															"value": "false"
+														}
+													],
+													"variable": [
+														{
+															"id": "acb72c9f-95d2-4dbb-a1c3-c977b81c7b1e",
+															"key": "list_id",
+															"value": "78126707",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"response": [
+												{
+													"id": "af2f1984-d417-4c60-8c14-9929e4460ede",
+													"name": "OK",
+													"originalRequest": {
+														"method": "GET",
+														"header": [
+															{
+																"description": "Added as a part of security scheme: bearer",
+																"key": "Authorization",
+																"value": "Bearer <token>"
+															}
+														],
+														"url": {
+															"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/:list_id/compare?as_quantity=false&as_sku_quantity=false&use_containers=false",
+															"host": [
+																"{{baseUrl}}"
+															],
+															"path": [
+																"supply-chain-api",
+																"rest",
+																"supply_chain",
+																"reference_lists",
+																":list_id",
+																"compare"
+															],
+															"query": [
+																{
+																	"key": "as_quantity",
+																	"value": "false"
+																},
+																{
+																	"key": "as_sku_quantity",
+																	"value": "false"
+																},
+																{
+																	"key": "use_containers",
+																	"value": "false"
+																}
+															],
+															"variable": [
+																{
+																	"key": "list_id",
+																	"value": "78126707",
+																	"description": "(Required) "
+																}
+															]
+														}
+													},
+													"status": "OK",
+													"code": 200,
+													"_postman_previewlanguage": "text",
+													"header": [
+														{
+															"key": "Content-Type",
+															"value": "text/plain"
+														}
+													],
+													"cookie": [],
+													"responseTime": null,
+													"body": ""
+												}
+											]
+										}
+									],
+									"id": "a8ac2712-84d0-4627-9192-61bf4a7fd34d"
+								},
+								{
+									"name": "/supply-chain-api/rest/supply_chain/reference_lists",
+									"id": "577bf773-a68f-434c-9378-dd59e5a7992c",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "PUT",
+										"header": [
+											{
+												"key": "Content-Type",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists?update_contents=true",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"supply-chain-api",
+												"rest",
+												"supply_chain",
+												"reference_lists"
+											],
+											"query": [
+												{
+													"key": "update_contents",
+													"value": "true"
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "789efee2-ec36-401c-af3c-d0aedf7c3d63",
+											"name": "OK",
+											"originalRequest": {
+												"method": "PUT",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: bearer",
+														"key": "Authorization",
+														"value": "Bearer <token>"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{}",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists?update_contents=true",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"supply-chain-api",
+														"rest",
+														"supply_chain",
+														"reference_lists"
+													],
+													"query": [
+														{
+															"key": "update_contents",
+															"value": "true"
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/supply-chain-api/rest/supply_chain/reference_lists/:id",
+									"id": "003ec758-12ba-4e9a-8df7-247396d5a9bc",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "DELETE",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/:id",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"supply-chain-api",
+												"rest",
+												"supply_chain",
+												"reference_lists",
+												":id"
+											],
+											"variable": [
+												{
+													"id": "69956aef-c880-4cf8-aebe-3576d6557e60",
+													"key": "id",
+													"value": "78126707",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "2d6ed421-2da8-4cc7-8231-8ce4a3ff5e89",
+											"name": "OK",
+											"originalRequest": {
+												"method": "DELETE",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: bearer",
+														"key": "Authorization",
+														"value": "Bearer <token>"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/reference_lists/:id",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"supply-chain-api",
+														"rest",
+														"supply_chain",
+														"reference_lists",
+														":id"
+													],
+													"variable": [
+														{
+															"key": "id",
+															"value": "78126707",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": ""
+										}
+									]
+								}
+							],
+							"id": "d4a5762e-5d80-4a5a-bc6b-04aa1f53a231"
+						},
+						{
+							"name": "transactions/{transaction id}/results",
+							"item": [
+								{
+									"name": "/supply-chain-api/rest/supply_chain/transactions/:transaction_id/results",
+									"id": "998f99d8-cdb0-42d7-b34a-1a1081e3ba96",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/transactions/:transaction_id/results?bizstep=do adipisicing fugiat nulla veniam&format=tag",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"supply-chain-api",
+												"rest",
+												"supply_chain",
+												"transactions",
+												":transaction_id",
+												"results"
+											],
+											"query": [
+												{
+													"key": "bizstep",
+													"value": "do adipisicing fugiat nulla veniam"
+												},
+												{
+													"key": "format",
+													"value": "tag"
+												}
+											],
+											"variable": [
+												{
+													"id": "b3608e79-96fd-4b60-8ba3-9426ef212b34",
+													"key": "transaction_id",
+													"value": "do adipisicing fugiat nulla veniam",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "0956f156-edfc-480a-a03a-74875bc2d6a0",
+											"name": "OK",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: bearer",
+														"key": "Authorization",
+														"value": "Bearer <token>"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/transactions/:transaction_id/results?bizstep=do adipisicing fugiat nulla veniam&format=tag",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"supply-chain-api",
+														"rest",
+														"supply_chain",
+														"transactions",
+														":transaction_id",
+														"results"
+													],
+													"query": [
+														{
+															"key": "bizstep",
+															"value": "do adipisicing fugiat nulla veniam"
+														},
+														{
+															"key": "format",
+															"value": "tag"
+														}
+													],
+													"variable": [
+														{
+															"key": "transaction_id",
+															"value": "do adipisicing fugiat nulla veniam",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": ""
+										}
+									]
+								},
+								{
+									"name": "/supply-chain-api/rest/supply_chain/transactions/:transaction_id/results/extended",
+									"id": "757e472f-88a8-43d9-965a-74975b53e192",
+									"protocolProfileBehavior": {
+										"disableBodyPruning": true
+									},
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/transactions/:transaction_id/results/extended?bizstep=do adipisicing fugiat nulla veniam&expiration_time=do adipisicing fugiat nulla veniam&format=do adipisicing fugiat nulla veniam&status=do adipisicing fugiat nulla veniam",
+											"host": [
+												"{{baseUrl}}"
+											],
+											"path": [
+												"supply-chain-api",
+												"rest",
+												"supply_chain",
+												"transactions",
+												":transaction_id",
+												"results",
+												"extended"
+											],
+											"query": [
+												{
+													"key": "bizstep",
+													"value": "do adipisicing fugiat nulla veniam"
+												},
+												{
+													"key": "expiration_time",
+													"value": "do adipisicing fugiat nulla veniam"
+												},
+												{
+													"key": "format",
+													"value": "do adipisicing fugiat nulla veniam"
+												},
+												{
+													"key": "status",
+													"value": "do adipisicing fugiat nulla veniam"
+												}
+											],
+											"variable": [
+												{
+													"id": "cc24958a-b366-4ae0-9cf5-8276a2fe55c7",
+													"key": "transaction_id",
+													"value": "do adipisicing fugiat nulla veniam",
+													"description": "(Required) "
+												}
+											]
+										}
+									},
+									"response": [
+										{
+											"id": "c79f1ba9-e676-4ccc-9d8f-ac101bdea131",
+											"name": "OK",
+											"originalRequest": {
+												"method": "GET",
+												"header": [
+													{
+														"description": "Added as a part of security scheme: bearer",
+														"key": "Authorization",
+														"value": "Bearer <token>"
+													}
+												],
+												"url": {
+													"raw": "{{baseUrl}}/supply-chain-api/rest/supply_chain/transactions/:transaction_id/results/extended?bizstep=do adipisicing fugiat nulla veniam&expiration_time=do adipisicing fugiat nulla veniam&format=do adipisicing fugiat nulla veniam&status=do adipisicing fugiat nulla veniam",
+													"host": [
+														"{{baseUrl}}"
+													],
+													"path": [
+														"supply-chain-api",
+														"rest",
+														"supply_chain",
+														"transactions",
+														":transaction_id",
+														"results",
+														"extended"
+													],
+													"query": [
+														{
+															"key": "bizstep",
+															"value": "do adipisicing fugiat nulla veniam"
+														},
+														{
+															"key": "expiration_time",
+															"value": "do adipisicing fugiat nulla veniam"
+														},
+														{
+															"key": "format",
+															"value": "do adipisicing fugiat nulla veniam"
+														},
+														{
+															"key": "status",
+															"value": "do adipisicing fugiat nulla veniam"
+														}
+													],
+													"variable": [
+														{
+															"key": "transaction_id",
+															"value": "do adipisicing fugiat nulla veniam",
+															"description": "(Required) "
+														}
+													]
+												}
+											},
+											"status": "OK",
+											"code": 200,
+											"_postman_previewlanguage": "text",
+											"header": [
+												{
+													"key": "Content-Type",
+													"value": "text/plain"
+												}
+											],
+											"cookie": [],
+											"responseTime": null,
+											"body": ""
+										}
+									]
+								}
+							],
+							"id": "150cb5b0-0cce-4872-9848-84846f6e3376"
+						}
+					],
+					"id": "0d030864-0e62-4106-ae91-f300b204b21b"
+				},
+				{
+					"name": "/supply-chain-api/rest/application/status",
+					"id": "96c7f76d-d40f-4142-8811-ea40c57fc35d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/supply-chain-api/rest/application/status",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"supply-chain-api",
+								"rest",
+								"application",
+								"status"
+							]
+						}
+					},
+					"response": [
+						{
+							"id": "fc853aa6-9594-426b-9058-3df4f25c8fd0",
+							"name": "OK",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"description": "Added as a part of security scheme: bearer",
+										"key": "Authorization",
+										"value": "Bearer <token>"
+									}
+								],
+								"url": {
+									"raw": "{{baseUrl}}/supply-chain-api/rest/application/status",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"supply-chain-api",
+										"rest",
+										"application",
+										"status"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "text",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "text/plain"
+								}
+							],
+							"cookie": [],
+							"responseTime": null,
+							"body": ""
+						}
+					]
+				}
+			],
+			"id": "e6fb410c-750f-403e-aadf-df32158a478a"
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "<Bearer Token>",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"id": "9cc9a271-24c5-4ef6-a6fe-eea7989aaccd",
+			"key": "baseUrl",
+			"value": "/",
+			"type": "string"
+		}
+	]
+}
