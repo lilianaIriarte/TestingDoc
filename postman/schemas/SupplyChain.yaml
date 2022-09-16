@@ -13,7 +13,7 @@ info:
 security:
 - JWT: []
 tags:
-- name: Supply chain
+- name: Supply chain v2
   description: API used to store and query list of tags or product/quantities
 paths:
   /stock-management/manage/application/picking:
