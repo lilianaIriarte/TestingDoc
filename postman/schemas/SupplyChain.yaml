@@ -1,7 +1,7 @@
 ---
 openapi: 3.0.3
 info:
-  title: Mojix ytem API v1
+  title: Mojix ytem API v2
   contact:
     name: "Mojix, Inc."
     url: https://mojix.com
